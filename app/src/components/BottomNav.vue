@@ -1,7 +1,9 @@
 <template>
   <div id="bottomNav">
-    <div class="tab">首页</div>
-    <div class="tab">我的</div>
+    <!--<div class="tab">首页</div>-->
+    <!--<div class="tab">我的</div>-->
+    <router-link to="/" class="tab">首页</router-link>
+    <router-link to="/mine" class="tab">我的</router-link>
   </div>
 </template>
 
